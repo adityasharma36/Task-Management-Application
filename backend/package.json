@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
- "scripts": {
-  "build": "npx prisma generate && tsc -p tsconfig.json",
-  "start": "node dist/app.js",
-  "dev": "tsx watch src/app.ts"
-},
+  "scripts": {
+    "build": "npx prisma generate && tsc -p tsconfig.json",
+    "start": "node dist/app.js",
+    "dev": "tsx watch src/app.ts"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
